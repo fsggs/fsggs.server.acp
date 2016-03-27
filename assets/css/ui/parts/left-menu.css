@@ -1,0 +1,179 @@
+
+#left-column {
+    position: relative;
+    float: left;
+    min-height: 100%;
+    width: 202px;
+    border-right: 1px solid #464646;
+}
+
+#content-merger {
+    position: fixed;
+    float: left;
+    width: 4px;
+    min-height: 100%;
+    margin-top: -32px;
+    margin-left: 203px;
+    border-right: 1px solid #464646;
+}
+
+#content-merger .merger-separator {
+    position: fixed;
+    top: -20px; bottom: -40px;
+    font-size: 20px;
+    height: 44px;
+    margin: auto 0;
+    color: grey;
+    -webkit-transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+#content {
+    position: relative;
+    min-height: 100%;
+    margin-left: 206px;
+    /*background: green;*/
+}
+
+.left-menu-button, .left-submenu-button {
+    position: relative;
+    width: 202px;
+    height: 33px;
+    line-height: 33px;
+    color: #d7d7d7;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+    background: url('../../../img/editor-left-menu-button.png') 0 0 no-repeat;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+.left-menu-button.active {
+    background-position: 0 -33px;
+    color: #aaaaaa;
+}
+
+.left-menu-button:hover {
+    background-position: 0 -33px;
+}
+
+.left-menu-button span {
+    padding-left: 4px;
+}
+
+.left-submenu {
+    display: none;
+}
+
+.left-submenu-button {
+    background-position: 0 -66px;
+}
+
+.left-submenu-button:hover {
+    background-position: 0 -99px;
+}
+
+.left-submenu-button.active {
+    background-position: 0 -99px;
+    color: #aaaaaa;
+    cursor: default;
+}
+
+.left-submenu-button span {
+    padding-left: 4px;
+}
+
+.left-menu-button i.icon, .left-submenu-button i.icon {
+    display: block;
+    position: relative;
+    float: left;
+    height: 24px;
+    width: 24px;
+    margin: 4px 0 0 4px;
+    background: url('../../../img/icons/icons.png') 0 0 no-repeat;
+}
+
+.left-submenu-button i.icon {
+    margin-left: 14px;
+}
+
+.left-menu-button i.arrow {
+    display: block;
+    position: absolute;
+    top: 12px; right: 6px;
+    height: 10px;
+    width: 10px;
+    background: url('../../../img/menu-arrow.png') 0 -10px no-repeat;
+}
+
+.left-menu-button.active i.arrow {
+    background-position: 0 0;
+}
+
+.left-menu-button i.sensor, .left-submenu-button i.sensor {
+    display: none;
+    position: absolute;
+    top: 11px; right: 20px;
+    height: 10px;
+    width: 10px;
+    background: url('../../../img/menu-arrow.png') 0 -20px no-repeat;
+}
+
+.left-submenu-button i.sensor {
+    right: 8px;
+}
+
+#info-map-box {
+    position: relative;
+    width: 202px;
+    height: 62px;
+    line-height: 14px;
+    color: #d7d7d7;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+    background: url('../../../img/info-map-box.png') 0 0 no-repeat;
+    -webkit-user-select: none;
+}
+
+#map-icon {
+    position: absolute;
+    top: 5px; left: 7px;
+    width: 50px;
+    height: 50px;
+    background: url('../../../img/example_logo_egeon.png') 0 0 no-repeat;
+}
+
+#map-name, #map-mode, #map-type {
+    position: absolute;
+    left: 65px;
+    font-size: 11px;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+#map-name {
+    top: 8px;
+}
+
+#map-mode {
+    top: 26px;
+}
+
+#map-type {
+    top: 40px;
+}
+
+.icon-map-stats {background-position: 0 0 !important;}
+.icon-stats {background-position: -24px 0 !important;}
+.icon-map-options {background-position: -48px 0 !important;}
+.icon-users {background-position: -72px 0 !important;}
+.icon-universe-objects {background-position: -120px 0 !important;}
+.icon-technology {background-position: -168px 0 !important;}
+.icon-buildings {background-position: -192px 0 !important;}
+.icon-battle-system {background-position: -216px 0 !important;}
+.icon-resources {background-position: 0 -24px !important;}
+.icon-resources-res {background-position: -24px -24px !important;}
+.icon-resources-rel {background-position: -48px -24px !important;}
+.icon-economy {background-position: -72px -24px !important;}
+.icon-banks {background-position: -96px -24px !important;}

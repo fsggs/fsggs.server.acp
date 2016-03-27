@@ -1,0 +1,12 @@
+{
+  "name": "fsggs.server.acp",
+  "private": true,
+  "dependencies": {
+    "jquery": "",
+    "requirejs": ""
+  },
+  "resolutions": {
+    "jquery": "",
+    "requirejs": ""
+  }
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FSGGS Editor</title>
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="assets/css/Application.css"/>
+</head>
+<body>
+
+<div id=wrapper>
+    <div id=background class="background"></div>
+    <div id=background-body class="background"></div>
+    <div id=head>
+        <div id=logo></div>
+        <div class=top_menu>
+            <menu class=dropdown-menu id=menu_map submenu=submenu_map>Server</menu>
+            <menu class=dropdown-menu id=menu_help submenu=submenu_help>About</menu>
+
+            <submenu class=dropdown-menu-context id=submenu_map>
+                <menu anchor=load_map>Connect<span></span></menu>
+                <menu class=menu_separator></menu>
+                <menu anchor=exit>Close<span></span></menu>
+            </submenu>
+            <submenu class=dropdown-menu-context id=submenu_help>
+                <menu anchor=about>About application</menu>
+            </submenu>
+        </div>
+    </div>
+    <div class=wrap-content>
+
+    </div>
+</div>
+
+<footer>No connection</footer>
+
+<div id="about" style="display:none;">
+    <div class="header"></div>
+    <div class="body">
+        <h3>FSGGS Editor</h3>
+        <p>Author: Dimitriy Kalugin @ DeVinterX</p>
+    </div>
+    <div class="footer">
+        &copy; 2009 - 2016, Dimitriy Kalugin. All rights reserved. License BSD-3
+    </div>
+</div>
+
+<script src="assets/vendor/requirejs/require.js" data-main="assets/js/Application"></script>
+</body>
+</html>
